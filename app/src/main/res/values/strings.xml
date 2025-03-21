@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">attendance_tracker</string>
+    <string-array name="years_array">
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+    </string-array>
+</resources>
