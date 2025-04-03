@@ -24,7 +24,18 @@
         <activity android:name=".activities.CourseListingActivity" />
         <activity android:name=".activities.NewCourseActivity" />
         <activity android:name=".activities.ClassesListingActivity" />
-        <activity android:name=".activities.AttendanceNotTakenStudentListing" />
+        <activity android:name=".activities.AttendanceStudentListing" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.attendance_tracker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
     </application>
 
 </manifest>

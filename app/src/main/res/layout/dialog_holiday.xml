@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="?attr/colorSurface"> <!-- Use system-defined surface color -->
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textHolidayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as Holiday"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp" />
+
+    <!-- Remark Input -->
+    <EditText
+        android:id="@+id/editRemark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Remark (Optional)"
+        android:textColorHint="?attr/colorOnSurface"
+    android:inputType="text"
+    android:textColor="?attr/colorOnSurface"
+    android:backgroundTint="?attr/colorControlNormal"
+    android:padding="10dp" />
+
+</LinearLayout>
